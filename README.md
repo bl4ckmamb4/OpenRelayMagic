@@ -4,7 +4,7 @@
 ║ ║├─┘├┤ │││╠╦╝├┤ │  ├─┤└┬┘║║║├─┤│ ┬││  
 ╚═╝┴  └─┘┘└┘╩╚═└─┘┴─┘┴ ┴ ┴ ╩ ╩┴ ┴└─┘┴└─┘
 ```
-Tool to test for open relays
+Tool to test for vulnerable open relays on SMTP servers
 
 ### Features
 * Check single target/ domain list
