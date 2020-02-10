@@ -81,7 +81,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-l", "--list", help="Domain List")
 	parser.add_argument("-t", "--target", help="Single Host")
-	parser.add_argument("-p", "--port", help="Define 465/587")
+	parser.add_argument("-p", "--port", help="Define 465/587", type=int)
 	parser.add_argument("-o", "--output", help="Output of Results")
 	parser.add_argument("-T", "--threads", help="No. of threads", default=10, type=int)
 	args = parser.parse_args()
